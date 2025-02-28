@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Álbum do Matuê</title>
+    <title>Matuê 333</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,30 +14,36 @@
             text-align: center;
         }
         .header {
-            background-color: #fff;
-            color: #000;
+            background-color: #111;
             padding: 20px 0;
         }
         .header h1 {
             margin: 0;
-            font-size: 3em;
+            font-size: 4em;
+            color: #fff;
+            text-transform: uppercase;
         }
         .gallery {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 10px;
+            gap: 15px;
             padding: 20px;
         }
         .gallery img {
             max-width: 100%;
-            height: auto;
+            height: 300px;
             border-radius: 10px;
-            border: 2px solid #fff;
+            border: 2px solid #333;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            border-color: #fff;
         }
         .footer {
-            background-color: #fff;
-            color: #000;
+            background-color: #111;
+            color: #fff;
             padding: 10px 0;
             position: fixed;
             width: 100%;
@@ -47,21 +53,25 @@
 </head>
 <body>
 
+    <!-- Cabeçalho com o texto "Matuê 333" -->
     <div class="header">
-        <h1>Álbum do Matuê</h1>
+        <h1>Matuê 333</h1>
     </div>
 
+    <!-- Galeria de fotos do Matuê -->
     <div class="gallery">
-        <img src="https://via.placeholder.com/300x400" alt="Foto do Matuê 1">
-        <img src="https://via.placeholder.com/300x400" alt="Foto do Matuê 2">
-        <img src="https://via.placeholder.com/300x400" alt="Foto do Matuê 3">
-        <img src="https://via.placeholder.com/300x400" alt="Foto do Matuê 4">
-        <img src="https://via.placeholder.com/300x400" alt="Foto do Matuê 5">
-        <img src="https://via.placeholder.com/300x400" alt="Foto do Matuê 6">
+        <!-- Adicione as fotos do Matuê aqui -->
+        <img src="matue1.jpg" alt="Foto do Matuê 1">
+        <img src="matue2.jpg" alt="Foto do Matuê 2">
+        <img src="matue3.jpg" alt="Foto do Matuê 3">
+        <img src="matue4.jpg" alt="Foto do Matuê 4">
+        <img src="matue5.jpg" alt="Foto do Matuê 5">
+        <img src="matue6.jpg" alt="Foto do Matuê 6">
     </div>
 
+    <!-- Rodapé -->
     <div class="footer">
-        <p>&copy; 2023 Álbum do Matuê. Todos os direitos reservados.</p>
+        <p>&copy; 2023 Matuê 333. Todos os direitos reservados.</p>
     </div>
 
 </body>
