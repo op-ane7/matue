@@ -1,57 +1,55 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matue Banner</title>
+    <title>Matue</title>
     <style>
-        /* Estilo para o texto "Matue" */
-        .titulo {
-            color: black;
-            font-size: 80px;
-            font-weight: bold;
-            text-align: center;
-            margin-top: 50px;
-        }
-
-        /* Estilo para as imagens em formato de banner */
-        .banner {
-            display: flex;
-            justify-content: center;
-            gap: 15px; /* Espaçamento entre as imagens */
-            margin-top: 20px;
-        }
-
-        .banner img {
-            width: 300px; /* Largura fixa das imagens */
-            height: auto;
-            border-radius: 10px; /* Bordas arredondadas nas imagens */
-        }
-
-        /* Estilo do link */
-        a {
-            text-decoration: none;
-        }
-
-        /* Estilo do corpo da página */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .titulo {
+            font-size: 50px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .imagens {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .imagens img {
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
         }
     </style>
 </head>
 <body>
-    <!-- Link com o texto "Matue" -->
-    <a href="https://www.exemplo.com" class="titulo">
-        Matue
-    </a>
 
-    <!-- Imagens dispostas como banner -->
-    <div class="banner">
-        <img src="imagem1.jpg" alt="Matue 1">
-        <img src="imagem2.jpg" alt="Matue 2">
-        <img src="imagem3.jpg" alt="Matue 3">
-        <img src="imagem4.jpg" alt="Matue 4">
+    <div class="container">
+        <div class="titulo">Matue</div>
+        <div class="imagens">
+            <img src="https://via.placeholder.com/200x200?text=Matue+1" alt="Imagem 1">
+            <img src="https://via.placeholder.com/200x200?text=Matue+2" alt="Imagem 2">
+            <img src="https://via.placeholder.com/200x200?text=Matue+3" alt="Imagem 3">
+        </div>
     </div>
+
 </body>
 </html>
